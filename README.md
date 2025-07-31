@@ -66,7 +66,8 @@ Alat ini memanfaatkan `BeautifulSoup` dan `requests` untuk melakukan scraping pa
 ## ⚙️ Cara Menjalankan
 
 ### 🔧 Instalasi
-
+# Install dependensi
+pip install -r requirements.txt
 ```bash
 git clone https://github.com/Dimasputra2530/Prospeku.git
 cd Prospeku
