@@ -1,40 +1,39 @@
-#🚀 Prospeku – Lead Scraper Indonetwork
-Prospeku adalah alat sederhana namun efektif untuk menghasilkan prospek bisnis dari situs B2B Indonetwork.co.id, dikembangkan dalam waktu kurang dari 5 jam. Proyek ini terinspirasi oleh platform seperti SaasquatchLeads namun berfokus pada pasar Indonesia.
-📁 Struktur Repo
+🚀 Prospeku – Lead Scraper Indonetwork
+Prospeku adalah alat sederhana namun efektif untuk menghasilkan prospek bisnis dari situs B2B Indonetwork.co.id. Aplikasi ini dikembangkan dalam waktu kurang dari 5 jam, terinspirasi dari platform seperti SaasquatchLeads, namun difokuskan pada pasar Indonesia.
+📁 Struktur Direktori
 Prospeku/
-│
-├── app/                    # Folder utama aplikasi
-│   ├── scraper.py          # Scraper utama menggunakan BeautifulSoup
-│   ├── utils.py            # Fungsi tambahan untuk random kontak dan sanitasi data
-│
-├── static/                 # File statis untuk UI
+├── app/            # Logika scraping & utilitas
+│   ├── scraper.py
+│   └── utils.py
+├── static/         # CSS untuk tampilan
 │   └── style.css
-│
-├── templates/              # HTML Template (Bootstrap)
+├── templates/      # UI HTML (Bootstrap)
 │   └── index.html
-│
-├── results/                # Folder hasil CSV yang diekspor
+├── results/        # Output CSV hasil scraping
 │   └── lead_results.csv
-│
-├── demo/                   # 📹 Tempat menyimpan video demo
-│   └── demo.mp4            # (Letakkan video demo kamu di sini)
-│
-├── app.py                  # Main Flask App
-├── README.md               # Dokumentasi (file ini)
-├── requirements.txt        # Dependensi Python
-├── laporan.pdf             # Laporan 1 halaman
+├── demo/           # Video demo aplikasi
+│   └── demo.mp4
+├── app.py          # Entry point Flask
+├── README.md       # Dokumentasi
+├── requirements.txt# Daftar dependensi
+├── laporan.pdf     # Laporan 1 halaman
 └── .gitignore
-#1. Clone repo
+⚙️ Cara Menjalankan
 git clone https://github.com/username/prospeku.git
 cd prospeku
-#2. Jalankan aplikasi Flask
+Jalankan aplikasi:
 python app.py
+Buka browser ke http://localhost:5000, masukkan kata kunci (misal: kapal) dan lokasi (misal: medan), lalu klik tombol "Scrape".
 
-#Buka http://localhost:5000 dan masukkan kata kunci (misal: kapal) dan lokasi (misal: medan), lalu klik "Scrape".
-📦 Fitur
-🔎 Scraping data dari Indonetwork berdasarkan kata kunci & lokasi
-📞 Mengisi kontak secara random jika tidak tersedia
-📋 Menyimpan hasil dalam format CSV
-💻 UI Bootstrap yang simpel dan cepat
-📹 Video demo (lihat folder /demo)
-📄 Laporan PDF 1 halaman (lihat laporan.pdf)
+📦 Fitur Unggulan
+🔎 Scraping data bisnis dari Indonetwork berdasarkan kata kunci & lokasi
+
+📞 Kontak otomatis diisi secara acak bila tidak tersedia
+
+📋 Hasil scraping disimpan dalam format CSV
+
+💻 UI simpel berbasis Bootstrap
+
+📹 Tersedia video demo dalam folder /demo
+
+📄 Laporan singkat tersedia dalam bentuk PDF (laporan.pdf)
