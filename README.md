@@ -67,8 +67,8 @@ Alat ini memanfaatkan `BeautifulSoup` dan `requests` untuk melakukan scraping pa
 # Install dependensi
 pip install -r requirements.txt
 ```bash
-git clone https://github.com/Dimasputra2530/Prospeku.git
-cd Prospeku
+git clone https://github.com/Dimasputra2530/LeadScrape.git
+cd LeadScrape
 ▶️ Jalankan Aplikasi
 python app.py
 
