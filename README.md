@@ -49,4 +49,28 @@ Alat ini memanfaatkan `BeautifulSoup` dan `requests` untuk melakukan scraping pa
 ---
 
 ## 🗂️ Struktur Proyek
+.
+├── app.py # Aplikasi utama Flask
+├── scraper.py # Fungsi scraping data dari Indonetwork
+├── templates/
+│ └── index.html # Tampilan UI Bootstrap
+├── static/
+│ └── style.css # (Opsional) Tambahan CSS
+├── demo-video.mp4 # Video demo alat (1–2 menit)
+├── output.csv # Contoh hasil scraping
+├── README.md # Dokumen lengkap proyek
+└── requirements.txt # Library yang dibutuhkan
+
+---
+
+## ⚙️ Cara Menjalankan
+
+### 🔧 Instalasi
+
+```bash
+git clone https://github.com/Dimasputra2530/Prospeku.git
+cd Prospeku
+▶️ Jalankan Aplikasi
+python app.py
+
 
