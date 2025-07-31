@@ -17,9 +17,7 @@ Proyek ini dikembangkan sebagai jawaban terhadap tantangan untuk menciptakan ala
 
 ## 📸 Video Demo
 
-Klik untuk menonton video demonstrasi:
-
-📹 [Demo LeadScrape - YouTube/Drive](./demo-video.mp4)
+- 📁 Demo video disediakan dalam folder `Demo/`.
 
 ---
 
