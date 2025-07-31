@@ -1,7 +1,7 @@
 🚀 Prospeku – Lead Scraper Indonetwork
 Prospeku adalah alat sederhana namun efektif untuk menghasilkan prospek bisnis dari situs B2B Indonetwork.co.id. Aplikasi ini dikembangkan dalam waktu kurang dari 5 jam, terinspirasi dari platform seperti SaasquatchLeads, namun difokuskan pada pasar Indonesia.
-📁 Struktur Direktori
-⚙️ Cara Menjalankan
+##📁 Struktur Direktori
+##⚙️ Cara Menjalankan
 git clone https://github.com/username/prospeku.git
 cd prospeku
 Jalankan aplikasi:
