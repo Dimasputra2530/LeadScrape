@@ -65,7 +65,11 @@ Alat ini memanfaatkan `BeautifulSoup` dan `requests` untuk melakukan scraping pa
 
 ### 🔧 Instalasi
 # Install dependensi
-pip install -r requirements.txt
+python -m venv venv
+source venv/bin/activate     # untuk Mac/Linux
+venv\Scripts\activate        # untuk Windows
+pip install flask beautifulsoup4 requests
+pip install pandas
 ```bash
 git clone https://github.com/Dimasputra2530/LeadScrape.git
 cd LeadScrape
